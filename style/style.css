@@ -139,3 +139,127 @@
     text-align: center;
     opacity: 0.7;
 }
+
+#about-us-container{
+    display: flex;
+    align-items: center;
+    margin: 100px auto;
+}
+#about-us-container .content{
+    width: 531px;
+}
+#about-us-container .image-box{
+    max-width: 489px;
+}
+#about-us-container .image-box img{
+    width: 100%;
+}
+
+#about-us-container .title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 13px;
+}
+#about-us-container .subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 25px;
+    opacity: 0.6;
+}
+#about-us-container .follow-box{
+    padding: 16px 6px 16px 6px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    margin-bottom: 17px;
+}
+#about-us-container p{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+#about-us-container .icon-box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#about-us-container .icon-box img{
+    width: 20px;
+    cursor: pointer;
+}
+
+#social{
+    height: 335px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)) ,url("../assets/social-bg.png");
+    margin: 100px auto;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#social .content{
+    width: 531px;
+    text-align: center;
+}
+#social .title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 13px;
+}
+#social .subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+    margin-bottom: 25px;
+}
+#social .follow-box{
+    padding: 16px 6px 16px 6px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    margin-bottom: 17px;
+}
+#social p{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+#social .icon-box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#social .icon-box img{
+    width: 20px;
+    cursor: pointer;
+}
