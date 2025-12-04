@@ -8,6 +8,9 @@
 .btn-container{
     text-align: center;
 }
+#bgMedia_comp-m6divs7t3 { 
+  display: none !important;
+}
 .btn{
     color: rgb(255, 0, 0);
     font-family: Work Sans;
